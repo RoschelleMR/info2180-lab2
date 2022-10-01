@@ -45,6 +45,7 @@ header h1 {
 .container{
   display: grid;
   grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 2fr;
   column-gap: 80px;
 }
 
@@ -61,8 +62,8 @@ header h1 {
 }
 
 .all-blogs img{
-  width: 150px;
-  height: 100px;
+  width: 250px;
+  height: 150px;
   float: right;
   margin-right: 50px;
   margin-bottom: 12px;
